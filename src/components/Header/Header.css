@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+  text-align: center;
+  background-image: url("https://i.ibb.co/L8F9LW1/bannerbackground.png");
+  background-size: auto 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -50px;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search-border-radius {
+  border-radius: 25px;
+}
