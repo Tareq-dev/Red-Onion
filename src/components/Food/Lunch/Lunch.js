@@ -15,6 +15,9 @@ const Lunch = () => {
           <LunchItem b={b} key={b.id} />
         ))}
       </div>
+      <div className="d-flex justify-content-center mb-5 mt-5">
+      <button className="border-0 py-1 px-2 rounded-3 bg-secondary text-white">Checkout Your Food</button>
+      </div>
     </div>
   );
 };
