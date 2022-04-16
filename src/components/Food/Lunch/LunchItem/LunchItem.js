@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-const BreakfastItem = ({ b }) => {
-  const { name, price, description, img } = b;
+const LunchItem = ({ b}) => {
+     const { name, price, description, img } = b;
   const food = b.time;
-  if(food === 'breakfast') {
+  if(food === 'lunch') {
   return (
     <div className="meal py-4 px-1 m-3">
       <img className="w-75" src={img} alt="" />
@@ -16,5 +16,6 @@ const BreakfastItem = ({ b }) => {
     
   );
 };
-}
-export default BreakfastItem;
+};
+
+export default LunchItem;

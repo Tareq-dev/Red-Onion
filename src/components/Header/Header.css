@@ -16,3 +16,11 @@
 .search-border-radius {
   border-radius: 25px;
 }
+
+@media screen and (min-width: 1024px) {
+  .header {
+    background-size: auto 500px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
