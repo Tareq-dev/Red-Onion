@@ -4,7 +4,9 @@ import "./App.css";
 import Breakfast from "./components/Food/Breakfast/Breakfast";
 import Dinner from "./components/Food/Dinner/Dinner";
 import Lunch from "./components/Food/Lunch/Lunch";
+import Login from "./components/Login/Login";
 import Main from "./components/Main/Main";
+import SignUp from "./components/SignUp/SignUp";
 
 export const MyFoodContext = createContext();
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/breakfast" element={<Breakfast />} />
           <Route path="/lunch" element={<Lunch />} />
           <Route path="/dinner" element={<Dinner />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
       </div>
     </MyFoodContext.Provider>
